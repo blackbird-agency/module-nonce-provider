@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\TemplateEngine\Php">
+        <plugin name="add_nonce_provider_to_templates"
+                type="Blackbird\NonceProvider\Plugin\AddNonceProviderToTemplates"
+                sortOrder="10"/>
+    </type>
+    <type name="Blackbird\NonceProvider\Plugin\AddNonceProviderToTemplates">
+        <arguments>
+            <argument name="nonceProvider" xsi:type="object">\Blackbird\NonceProvider\ViewModel\NonceProvider\Proxy</argument>
+        </arguments>
+    </type>
+</config>
