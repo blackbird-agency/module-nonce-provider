@@ -9,7 +9,7 @@ This module add access to the object "$nonceProvider" in all Magento 2 templates
 /**
  * @var \Blackbird\NonceProvider\ViewModel\NonceProvider $nonceProvider
  */
-<script type="text/javascript" <?= $nonceProvider->renderNonceAttribute() ?>/>
+<script type="text/javascript" <?= $nonceProvider->renderNonceAttribute() ?> >
    console.log("I am authorized now !");
 </script>
 ```
