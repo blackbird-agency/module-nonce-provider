@@ -1,4 +1,4 @@
-# Category Empty Button
+# Module Nonce Provider
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/blackbird/module-nonce-provider.svg?style=flat-square)](https://packagist.org/packages/blackbird/module-nonce-provider)
 [![License: MIT](https://img.shields.io/github/license/blackbird-agency/module-nonce-provider.svg?style=flat-square)](./LICENSE)
